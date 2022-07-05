@@ -12,4 +12,10 @@ module "aft" {
   account_provisioning_customizations_repo_name = "${var.github_username}/learn-terraform-aft-account-provisioning-customizations"
   global_customizations_repo_name               = "${var.github_username}/learn-terraform-aft-global-customizations"
   account_customizations_repo_name              = "${var.github_username}/learn-terraform-aft-account-customizations"
+  
+  # TF Vars
+  terraform_distribution = "${var.terraform_distribution}"
+  terraform_token        = "${terraform_token}"
+  terraform_org_name     = "${var.terraform_org_name}"
+  
 }
