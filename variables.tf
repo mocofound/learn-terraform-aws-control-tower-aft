@@ -1,3 +1,9 @@
+variable "terraform_distribution" {}
+
+variable "terraform_org_name" {}
+
+variable "terraform_token" {}
+
 variable "ct_management_account_id" {}
 
 variable "log_archive_account_id" {}
