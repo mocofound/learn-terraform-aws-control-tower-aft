@@ -15,7 +15,7 @@ module "aft" {
   
   # TF Vars
   terraform_distribution = "${var.terraform_distribution}"
-  terraform_token        = "${terraform_token}"
+  terraform_token        = "${var.terraform_token}"
   terraform_org_name     = "${var.terraform_org_name}"
   
 }
